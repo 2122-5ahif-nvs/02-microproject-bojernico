@@ -1,0 +1,24 @@
+POST localhost:8080/api/ingredient/create
+Content-Type: application/json
+
+{
+  "name": "Tomaten"
+}
+
+###
+
+GET localhost:8080/api/ingredient/1
+Accept: application/json
+
+###
+
+PUT localhost:8080/api/ingredient/update/1
+Content-Type: application/json
+
+{
+  "description": "Kreuzkümmel wird auch als Cumin bezeichnet und gehört wie die Petersilie zur Familie der Doldenblütler. Dieses Gewürz ist hierzulande nicht unbedingt üblich, übt aber durchaus auch einen gewissen Reiz aus."
+}
+
+###
+
+DELETE localhost:8080/api/ingredient/delete/1

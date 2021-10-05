@@ -1,0 +1,9 @@
+[plantuml, Recipe-cld, png, align=left]
+----
+include::plantuml/cld.puml[]
+----
+
+[plantuml, Recipe-ucd, png, align=left]
+----
+include::plantuml/ucd.puml[]
+----

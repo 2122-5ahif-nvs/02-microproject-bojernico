@@ -1,0 +1,368 @@
+[
+    {
+      "name": "Schweinebraten für 6 Portionen",
+      "author": "Heislmair Emma",
+      "mealType": "ENTREE",
+      "ingredients": [
+        {
+          "amount": 1,
+          "unit": "kg",
+          "name": "Schweinebraten",
+          "calories": 2470
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Salz",
+          "calories": 0
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Paprikapulver",
+          "calories": 16
+        },
+        {
+          "amount": 2,
+          "unit": "EL",
+          "name": "Senf",
+          "calories": 17
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Butter für die Pfanne",
+          "calories": 75
+        },
+        {
+          "amount": 2,
+          "unit": "Stk",
+          "name": "Zwiebel",
+          "calories": 22
+        },
+        {
+          "amount": 5,
+          "unit": "Stk",
+          "name": "Karotten",
+          "calories": 160
+        },
+        {
+          "amount": 1,
+          "unit": "Prise",
+          "name": "Pfeffer",
+          "calories": 1
+        },
+        {
+          "amount": 500,
+          "unit": "ml",
+          "name": "Gemüsebrühe",
+          "calories": 20
+        },
+        {
+          "amount": 1,
+          "unit": "EL",
+          "name": "Schmalz",
+          "calories": 90
+        },
+        {
+          "amount": 1,
+          "unit": "TL",
+          "name": "Kreuzkümmel",
+          "calories": 19
+        }
+      ],
+      "instructions":"Für den saftigen Schweinsbraten mit einer knusprigen Kruste zuerst das Backrohr (Ober-/Unterhitze) auf 140 Grad vorheizen.\nDas Fleisch rundum salzen, pfeffern und mit Paprikapulver bestreuen. Anschließend mit Senf bestreichen.\nIn einem Bräter oder einer großen Pfanne einen Esslöffel Schmalz oder Butter heiß werden lassen und den Schweinebraten auf allen Fleischseiten (nicht die Schwarte) scharf anbraten.\nDann das Fleisch mit der Schwarte nach unten in den Bräter geben, die Gemüsebrühe hinein gießen und das Fleisch für rund 45 Minuten in den Backofen geben. Dadurch wird die Schwarte weich gekocht und erhält später eine schöne Kruste.\nIn der Zwischenzeit die Zwiebeln und Karotten schälen und in gröbere Stücke schneiden und in einer Pfanne mit Butter scharf anbraten.\nNach ca. 45 Minuten das Fleisch aus dem Backrohr holen, umdrehen damit die Schwarte nach oben zeigt, diese rautenförmig nicht zu tief einschneiden (Vorsicht heiß) und ein paar Knoblauchstücke in die eingeschnittenen Schwarten spicken.\nDen Braten jetzt nochmals salzen, pfeffern und den Kümmel drüber streuen, das angebratene Gemüse in den Bräter zum Fleisch geben und bei 180 Grad (Ober-/Unterhitze) für ca. 90 Minuten braten. 10 Minuten vor Ende der Backzeit die Temperatur auf 220 Grad erhöhen und auf Umluft oder Grill stellen."
+    },
+    {
+      "name":"Wiener Schnitzel für 4 Personen",
+      "author":"Tempelmair Susi",
+      "mealType":"ENTREE",
+      "ingredients":[
+        {
+          "amount":500,
+          "unit":"g",
+          "name":"Kalbsschnitzel",
+          "calories": 1515
+        },
+        {
+          "amount":150,
+          "unit":"g",
+          "name":"Griffiges Mehl",
+          "calories": 495
+        },
+        {
+          "amount":2,
+          "unit":"Stk",
+          "name":"Eier",
+          "calories": 155
+        },
+        {
+          "amount":300,
+          "unit":"g",
+          "name":"Semmelbrösel",
+          "calories": 1185
+        },
+        {
+          "amount":1,
+          "unit":"Stück",
+          "name":"Zitrone",
+          "calories": 22
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Salz",
+          "calories": 0
+        },
+        {
+          "amount":2,
+          "unit":"EL",
+          "name":"Öl",
+          "calories": 242
+        }
+      ],
+      "instructions": "Schnitzel zwischen Frischhaltefolie behutsam klopfen. Fleisch beidseitig salzen, in Mehl wenden, abklopfen, durch die Eier ziehen und in den Bröseln wenden.\nSchnitzel ca. 2 Finger hoch Backfett goldgelb backen. Während des Backens die Pfanne ein wenig rütteln, damit die Schnitzel gleichmäßig goldbraun werden. Schnitzel herausheben, auf Küchenpapier abtropfen lassen.\nZitrone in Spalten schneiden und die fertigen Wiener Schnitzel mit Zitronenspalten garnieren."
+    },
+    {
+      "name":"Nudelsuppe für 4 Portionen",
+      "author":"Gruber Claudia",
+      "mealType":"STARTER",
+      "ingredients":[
+        {
+          "amount":2,
+          "unit":"Stk",
+          "name":"Karotten",
+          "calories": 60
+        },
+        {
+          "amount":1,
+          "unit":"l",
+          "name":"Wasser",
+          "calories": 0
+        },
+        {
+          "amount":1,
+          "unit":"EL",
+          "name":"Öl",
+          "calories": 121
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Salz",
+          "calories": 0
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Pfeffer",
+          "calories": 1
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Majoran",
+          "calories": 1
+        },
+        {
+          "amount":1,
+          "unit":"Stg",
+          "name":"Petersilie (frisch)",
+          "calories": 18
+        },
+        {
+          "amount":1,
+          "unit":"EL",
+          "name":"Schnittlauch (frisch, gehackt)",
+          "calories": 3
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Muskat (gerieben)",
+          "calories": 1
+        },
+        {
+          "amount":3,
+          "unit":"Stk",
+          "name":"Wacholderbeeren",
+          "calories": 1
+        },
+        {
+          "amount":50,
+          "unit":"g",
+          "name":"Suppennudeln",
+          "calories": 180
+        }
+      ],
+      "instructions": "Für die Nudelsuppe das Gemüse putzen, waschen, schneiden und die Kräuter schneiden.\nDie Karotten in Stifte oder Scheiben schneiden. Im heißen Öl kurz anrösten, mit heißem Wasser aufgießen. Die Suppe mit Suppengewürz würzen und zugedeckt köcheln lassen (20 min).\nDie Teigwaren in kochendes Salzwasser geben, auf kleine Flamme köcheln lassen (5 min), abseihen und kurz vor dem Servieren in die Suppe geben."
+    },
+    {
+      "name":"Feine Kürbissuppe für 4 Personen",
+      "author":"Temper Ursula",
+      "mealType":"STARTER",
+      "ingredients":[
+        {
+          "amount":40,
+          "unit":"g",
+          "name":"Butter",
+          "calories": 287
+        },
+        {
+          "amount":4,
+          "unit":"Stk",
+          "name":"Kartoffel, roh",
+          "calories": 252
+        },
+        {
+          "amount":6,
+          "unit":"Stk",
+          "name":"Knoblauchzehen, gepresst",
+          "calories": 26
+        },
+        {
+          "amount":2,
+          "unit":"Stk",
+          "name":"Hokkaido Kürbis (1 kg)",
+          "calories": 1220
+        },
+        {
+          "amount":2,
+          "unit":"Prise",
+          "name":"Liebstöckel, gehackt",
+          "calories": 1
+        },
+        {
+          "amount":300,
+          "unit":"ml",
+          "name":"Sauermilch",
+          "calories": 180
+        },
+        {
+          "amount": 800,
+          "unit": "ml",
+          "name": "Wasser",
+          "calories": 0
+        },
+        {
+          "amount":2,
+          "unit":"Stk",
+          "name":"Zwiebel, gehackt",
+          "calories": 22
+        }
+      ],
+      "instructions": "Den Kürbis in grobe Stücke schneiden. Die Kartoffeln schälen und in kleine Stücke schneiden.\nIn einem Topf die Butter zerlassen und die gehackte Zwiebel und den Knoblauch kurz anbraten lassen. Das Wasser, den Kürbis und die Kartoffel hinzugeben und alles ca. 10 Minuten kochen lassen bis der Kürbis weich ist. Dann alles pürieren.\nMit Salz und Pfeffer abschmecken und weitere 10 Min auf kleiner Flamme köcheln lassen.\nSauermilch einrühren, nochmals aufkochen und mit einem Esslöffel Obers und Petersilie servieren."
+    },
+    {
+      "name":"Waffeln für 4 Portionen",
+      "author":"Reich Daniel",
+      "mealType":"DESSERT",
+      "ingredients":[
+        {
+          "amount":250,
+          "unit":"g",
+          "name":"Mehl",
+          "calories": 910
+        },
+        {
+          "amount":3,
+          "unit":"Stk",
+          "name":"Eier",
+          "calories": 232
+        },
+        {
+          "amount":1,
+          "unit":"Pk",
+          "name":"Vanillezucker",
+          "calories": 30
+        },
+        {
+          "amount":150,
+          "unit":"g",
+          "name":"Zucker",
+          "calories": 580
+        },
+        {
+          "amount":150,
+          "unit":"ml",
+          "name":"Milch",
+          "calories": 96
+        },
+        {
+          "amount":125,
+          "unit":"g",
+          "name":"zerlassene Margarine",
+          "calories": 897
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Salz",
+          "calories": 0
+        },
+        {
+          "amount":1,
+          "unit":"Pk",
+          "name":"Backpulver",
+          "calories": 15
+        },
+        {
+          "amount":1,
+          "unit":"EL",
+          "name":"Speisestärke",
+          "calories": 35
+        }
+      ],
+      "instructions": "Für dieses einfache Waffelrezept wird zuerst das Waffeleisen vorgeheizt.\nIn einer Schüssel das Mehl mit dem Backpulver vermischen.\nDie Eier in einer anderen Schüssel mit dem Mixer schön schaumig schlagen und nach und nach die weiteren Zutaten wie Zucker, Milch, Vanillezucker, Mehl-, Backpulvergemisch und eine Prise Salz einrühren.\nDie Magarine oder Butter zerlassen und in den Waffelteig geben - nochmal alles gut durchrühren.\nNun das heiße Waffeleisen mit Öl oder Butter einfetten - am besten eignet sich dazu ein Pinsel.\nJetzt kann der Teig mit Hilfe eines Suppenschöpfers in das Waffeleisen eingefüllt und köstliche, goldgelbe Waffeln gebacken werden.\nDie fertigen noch warmen Waffeln mit Staubzucker bestreuen und mit Schlagobers und einer Erdbeersauce servieren."
+    },
+    {
+      "name":"Eispalatschinken für 4 Portionen",
+      "author":"Tisch Roman",
+      "mealType":"DESSERT",
+      "ingredients":[
+        {
+          "amount":180,
+          "unit":"g",
+          "name":"Mehl",
+          "calories": 655
+        },
+        {
+          "amount":1,
+          "unit":"Msp",
+          "name":"Backpulver",
+          "calories": 15
+        },
+        {
+          "amount":3,
+          "unit":"Stk",
+          "name":"Eier",
+          "calories": 232
+        },
+        {
+          "amount":200,
+          "unit":"ml",
+          "name":"Milch",
+          "calories": 128
+        },
+        {
+          "amount":1,
+          "unit":"Prise",
+          "name":"Salz",
+          "calories": 0
+        },
+        {
+          "amount":8,
+          "unit":"Kugel",
+          "name":"Vanilleeis",
+          "calories": 800
+        },
+        {
+          "amount":60,
+          "unit":"g",
+          "name":"Butter (geschmolzen)",
+          "calories": 430
+        }
+      ],
+      "instructions": "Für die Eispalatschinken zuerst Mehl und Backpulver, mit allen Zutaten zu einem Palatschinkenteig gut verrühren und ca 20 Min. rasten lassen.\nButterschmalz in einer beschichteten Pfanne erhitzen und mit einem Schöpfer die Masse einfüllen und goldbraun herausbacken - warm stellen.\nDie Palatschinke mit Schokosauce füllen, zusammenklappen und mit einer Eiskugel verzieren. Nochmal Schokosauce drauf geben und servieren."
+    }
+]

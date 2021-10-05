@@ -1,0 +1,228 @@
+POST localhost:8080/api/recipe/create
+Content-Type: application/json
+
+{
+  "name": "Schweinebraten für 6 Portionen",
+  "author": "Heißlmair Emma",
+  "mealType": "ENTREE",
+  "ingredients": [
+    {
+      "amount": 1,
+      "unit": "kg",
+      "name": "Schweinebraten",
+      "calories": 2470
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Salz",
+      "calories": 0
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Paprikapulver",
+      "calories": 16
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Senf",
+      "calories": 17
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Butter für die Pfanne",
+      "calories": 75
+    },
+    {
+      "amount": 2,
+      "unit": "Stk",
+      "name": "Zwiebel",
+      "calories": 22
+    },
+    {
+      "amount": 5,
+      "unit": "Stk",
+      "name": "Karotten",
+      "calories": 160
+    },
+    {
+      "amount": 1,
+      "unit": "Prise",
+      "name": "Pfeffer",
+      "calories": 1
+    },
+    {
+      "amount": 500,
+      "unit": "ml",
+      "name": "Gemüsebrühe",
+      "calories": 20
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Schmalz",
+      "calories": 90
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Kreuzkümmel",
+      "calories": 19
+    }
+  ],
+  "instructions":"Für den saftigen Schweinsbraten mit einer knusprigen Kruste zuerst das Backrohr (Ober-/Unterhitze) auf 140 Grad vorheizen.\nDas Fleisch rundum salzen, pfeffern und mit Paprikapulver bestreuen. Anschließend mit Senf bestreichen.\nIn einem Bräter oder einer großen Pfanne einen Esslöffel Schmalz oder Butter heiß werden lassen und den Schweinebraten auf allen Fleischseiten (nicht die Schwarte) scharf anbraten.\nDann das Fleisch mit der Schwarte nach unten in den Bräter geben, die Gemüsebrühe hinein gießen und das Fleisch für rund 45 Minuten in den Backofen geben. Dadurch wird die Schwarte weich gekocht und erhält später eine schöne Kruste.\nIn der Zwischenzeit die Zwiebeln und Karotten schälen und in gröbere Stücke schneiden und in einer Pfanne mit Butter scharf anbraten.\nNach ca. 45 Minuten das Fleisch aus dem Backrohr holen, umdrehen damit die Schwarte nach oben zeigt, diese rautenförmig nicht zu tief einschneiden (Vorsicht heiß) und ein paar Knoblauchstücke in die eingeschnittenen Schwarten spicken.\nDen Braten jetzt nochmals salzen, pfeffern und den Kümmel drüber streuen, das angebratene Gemüse in den Bräter zum Fleisch geben und bei 180 Grad (Ober-/Unterhitze) für ca. 90 Minuten braten. 10 Minuten vor Ende der Backzeit die Temperatur auf 220 Grad erhöhen und auf Umluft oder Grill stellen."
+}
+
+###
+
+GET localhost:8080/api/recipe
+Accept: application/json
+
+###
+
+GET localhost:8080/api/recipe/1
+Accept: application/json
+
+###
+
+GET localhost:8080/api/recipe/type/entree
+Accept: application/json
+
+###
+
+PUT localhost:8080/api/recipe/update/1
+Content-Type: application/json
+
+{
+  "name": "Schweinebraten für 8 Portionen",
+  "author": "Tangler Nina",
+  "mealType": "ENTREE",
+  "ingredients": [
+    {
+      "amount": 1500,
+      "unit": "g",
+      "name": "Schweinebraten"
+    },
+    {
+      "amount": 2,
+      "unit": "TL",
+      "name": "Salz"
+    },
+    {
+      "amount": 2,
+      "unit": "TL",
+      "name": "Paprikapulver"
+    },
+    {
+      "amount": 3,
+      "unit": "EL",
+      "name": "Senf"
+    },
+    {
+      "amount": 2,
+      "unit": "EL",
+      "name": "Butter für die Pfanne"
+    },
+    {
+      "amount": 2,
+      "unit": "Stk",
+      "name": "Zwiebel"
+    },
+    {
+      "amount": 8,
+      "unit": "Stk",
+      "name": "Karotten"
+    },
+    {
+      "amount": 2,
+      "unit": "Prise",
+      "name": "Pfeffer"
+    },
+    {
+      "amount": 750,
+      "unit": "ml",
+      "name": "Gemüsebrühe"
+    },
+    {
+      "amount": 1,
+      "unit": "EL",
+      "name": "Schmalz"
+    },
+    {
+      "amount": 1,
+      "unit": "TL",
+      "name": "Kreuzkümmel"
+    }
+  ],
+  "instructions": [
+    {
+      "duration": 0,
+      "unit": "-",
+      "description" : "Für den saftigen Schweinsbraten mit einer knusprigen Kruste zuerst das Backrohr (Ober-/Unterhitze) auf 140 Grad vorheizen."
+    },
+    {
+      "duration": 5,
+      "unit": "min",
+      "description": "Das Fleisch rundum salzen, pfeffern und mit Paprikapulver bestreuen. Anschließend mit Senf bestreichen."
+    },
+    {
+      "duration": 10,
+      "unit": "min",
+      "description": "In einem Bräter oder einer großen Pfanne einen Esslöffel Schmalz oder Butter heiß werden lassen und den Schweinebraten auf allen Fleischseiten (nicht die Schwarte) scharf anbraten."
+    },
+    {
+      "duration": 45,
+      "unit": "min",
+      "description": "Dann das Fleisch mit der Schwarte nach unten in den Bräter geben, die Gemüsebrühe hinein gießen und das Fleisch für rund 45 Minuten in den Backofen geben. Dadurch wird die Schwarte weich gekocht und erhält später eine schöne Kruste."
+    },
+    {
+      "duration": 10,
+      "unit": "min",
+      "description": "In der Zwischenzeit die Zwiebeln und Karotten schälen und in gröbere Stücke schneiden und in einer Pfanne mit Butter scharf anbraten."
+    },
+    {
+      "duration": 0,
+      "unit": "min",
+      "description": "Nach ca. 45 Minuten das Fleisch aus dem Backrohr holen, umdrehen damit die Schwarte nach oben zeigt, diese rautenförmig nicht zu tief einschneiden (Vorsicht heiß) und ein paar Knoblauchstücke in die eingeschnittenen Schwarten spicken."
+    },
+    {
+      "duration": 90,
+      "unit": "min",
+      "description": "Den Braten jetzt nochmals salzen, pfeffern und den Kümmel drüber streuen, das angebratene Gemüse in den Bräter zum Fleisch geben und bei 180 Grad (Ober-/Unterhitze) für ca. 90 Minuten braten. 10 Minuten vor Ende der Backzeit die Temperatur auf 220 Grad erhöhen und auf Umluft oder Grill stellen."
+    }
+  ]
+}
+
+###
+
+GET localhost:8080/api/recipe/get-calories-by-id/1
+
+###
+
+GET localhost:8080/api/recipe/get-calories?shortName=schweinebraten
+Accept: text/plain
+
+####
+
+PATCH localhost:8080/api/recipe/update-shortname
+Content-Type: application/json
+
+{
+  "id": 1,
+  "shortName": "wiener-schnitzi"
+}
+
+###
+
+GET localhost:8080/api/recipe/1
+Accept: application/json
+
+###
+
+DELETE localhost:8080/api/recipe/delete/1
+
+###
+
