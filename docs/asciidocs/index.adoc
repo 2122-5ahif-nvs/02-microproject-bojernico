@@ -1,0 +1,41 @@
+= Kochrezepte
+Nico Bojer
+1.0.0, 2021-07-10: micro project
+ifndef::imagesdir[:imagesdir: images]
+//:toc-placement!:  // prevents the generation of the doc at this position, so it can be printed afterwards
+:sourcedir: ../src/main/java
+:icons: font
+:sectnums:    // Nummerierung der Überschriften / section numbering
+:toc: left
+
+//Need this blank line after ifdef, don't know why...
+ifdef::backend-html5[]
+
+// print the toc here (not at the default position)
+//toc::[]
+
+== Description
+This project is designed to manage different recipes for different types of meals.
+For these recipes, the CRUD methods are implemented and callable with JSON or and XML, whereas JSON gives the better results.
+
+The import request imports 6 recipes into the database.
+
+Furthermore, you can create a menu, which needs a starter, a main course and a dessert to deliver a successful result.
+
+Worth mentioning is the calorie calculation of a single recipe.
+
+You can also view the ingredients individually. For these, the CRUD methods have been implemented to simplify the management of recipes.
+
+
+== Class-Diagram
+[plantuml, cld, png, align=left]
+----
+include::plantuml/cld.puml[]
+----
+
+=== Use-Case diagram
+[plantuml, ucd, png, align=left]
+----
+include::plantuml/ucd.puml[]
+----
+
