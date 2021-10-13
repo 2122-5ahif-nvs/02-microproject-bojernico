@@ -10,7 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity(name = "recipe")
-@Schema()
+@Schema(description = "This is a recipe")
 @XmlRootElement
 public class Recipe {
     @Id
