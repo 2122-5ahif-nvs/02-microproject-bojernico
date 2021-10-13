@@ -16,6 +16,6 @@ public class RecipeKarateTest {
     Karate testCreateRecipes() {
         repo.changePathForTesting();
         repo.clear();
-        return Karate.run("features/test-features").relativeTo(getClass());
+        return Karate.run("features/test-features");
     }
 }

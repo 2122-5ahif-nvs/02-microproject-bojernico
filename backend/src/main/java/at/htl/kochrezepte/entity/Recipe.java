@@ -1,5 +1,7 @@
 package at.htl.kochrezepte.entity;
 
+import org.eclipse.microprofile.openapi.annotations.media.Schema;
+
 import javax.json.bind.annotation.JsonbTransient;
 import javax.persistence.*;
 import javax.xml.bind.annotation.XmlRootElement;
@@ -8,6 +10,7 @@ import java.util.List;
 import java.util.Objects;
 
 @Entity(name = "recipe")
+@Schema()
 @XmlRootElement
 public class Recipe {
     @Id

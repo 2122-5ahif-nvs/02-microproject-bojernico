@@ -36,6 +36,7 @@ else
 fi
 
 git remote add origin $ORIGIN_URL
+git push --force origin master:gh-pages
 
 
 # echo gh-pages url

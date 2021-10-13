@@ -15,6 +15,9 @@ ifdef::backend-html5[]
 //toc::[]
 
 == Description
+
+**Java version has to be set to Java 11, otherwise Panache throws an exception**
+
 This project is designed to manage different recipes for different types of meals.
 For these recipes, the CRUD methods are implemented and callable with JSON or and XML, whereas JSON gives the better results.
 

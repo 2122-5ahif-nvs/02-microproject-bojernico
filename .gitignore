@@ -44,15 +44,15 @@ backend/unused-methods.txt
 backend/http-request/menu-request.http
 
 # Asciidocs
-docs/build-docs-html/
-docs/build-docs-pdf/
-docs/build-docs-revealjs/
-docs/target/
-docs/asciidocs/revealjs/
-docs/revealjs.zip
-docs/gh-pages/
-docs/.idea/
-docs/*.iml
-docs/.DS_Store
-docs/.env
-docs/*.zip
+build-docs-html/
+build-docs-pdf/
+build-docs-revealjs/
+target/
+asciidocs/revealjs/
+revealjs.zip
+gh-pages/
+.idea/
+*.iml
+.DS_Store
+.env
+*.zip

@@ -1,4 +1,5 @@
 # bojer-kochrezepte project
+**Java version has to be set to Java 11, otherwise Panache throws an exception**
 
 ## Description
 
@@ -23,12 +24,12 @@ You can also view the ingredients individually. For these, the CRUD methods have
 - [X] README beinhaltet Dokumentation, Datenmodell, Use-Case-Diagrams und Swagger-Link
 
 ## Class Diagram
-![class-diagram](backend/asciidoc/images/cld.png?raw=true)
+![class-diagram](asciidocs/images/cld.png?raw=true)
 
 ## Use-Case Diagrams
-![use-case-diagram](backend/asciidoc/images/ucd.png?raw=true)
+![use-case-diagram](asciidocs/images/ucd.png?raw=true)
 
-![use-case-diagram-db](backend/asciidoc/images/ucd-db.png?raw=true)
+![use-case-diagram-db](asciidocs/images/ucd-db.png?raw=true)
 
 ## Quarkus
 
