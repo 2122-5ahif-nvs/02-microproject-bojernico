@@ -14,7 +14,6 @@ public class RecipeKarateTest {
 
     @Karate.Test
     Karate testCreateRecipes() {
-        repo.changePathForTesting();
         repo.clear();
         return Karate.run("features/test-features");
     }

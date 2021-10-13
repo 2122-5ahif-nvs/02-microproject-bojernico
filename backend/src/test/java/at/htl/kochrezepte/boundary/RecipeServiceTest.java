@@ -21,8 +21,6 @@ public class RecipeServiceTest {
     void setup() {
         this.recipeRepository.clear();
 
-        this.recipeRepository.changePathForTesting();
-        ImportController.changePathForTesting();
         var recipes = ImportController.ReadRecipesFromJson();
         assert recipes != null;
         recipes.forEach(r -> recipeRepository.add(r));

@@ -3,9 +3,7 @@ package at.htl.kochrezepte.control;
 import at.htl.kochrezepte.entity.Recipe;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import io.quarkus.runtime.StartupEvent;
 
-import javax.enterprise.event.Observes;
 import java.io.File;
 import java.io.IOException;
 import java.lang.reflect.Type;
@@ -17,15 +15,9 @@ import java.util.List;
 public class ImportController {
     private static final String filePath = "/data/inputs.json";
 
-    private static String path = "..";
-
-
-    public static void changePathForTesting() {
-        path = ".";
-    }
 
     public static List<Recipe> ReadRecipesFromJson() {
-        File f = new File(path);
+        File f = new File(".");
         String path;
         try {
             path = f.getCanonicalPath();

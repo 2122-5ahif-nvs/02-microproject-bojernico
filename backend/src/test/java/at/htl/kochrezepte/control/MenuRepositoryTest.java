@@ -24,8 +24,6 @@ public class MenuRepositoryTest {
         this.menuRepository.clear();
         this.recipeRepository.clear();
 
-        ImportController.changePathForTesting();
-        this.recipeRepository.changePathForTesting();
         var recipes = ImportController.ReadRecipesFromJson();
         assert recipes != null;
         var starters = recipes.stream()

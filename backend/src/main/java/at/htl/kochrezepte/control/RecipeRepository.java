@@ -6,12 +6,9 @@ import at.htl.kochrezepte.entity.MealType;
 import at.htl.kochrezepte.entity.Recipe;
 import at.htl.kochrezepte.entity.RecipeIngredient;
 import io.quarkus.hibernate.orm.panache.PanacheRepository;
-import io.quarkus.runtime.Startup;
-import io.quarkus.runtime.StartupEvent;
 import org.dom4j.IllegalAddException;
 
 import javax.enterprise.context.ApplicationScoped;
-import javax.enterprise.event.Observes;
 import javax.imageio.ImageIO;
 import javax.inject.Inject;
 import javax.json.JsonArray;
@@ -31,13 +28,7 @@ public class RecipeRepository implements PanacheRepository<Recipe> {
     @Inject
     IngredientRepository ingredientRepository;
 
-    private String filePath = "..";
-
     public RecipeRepository() {
-    }
-
-    public  void changePathForTesting() {
-        filePath = ".";
     }
 
     @Transactional
@@ -97,7 +88,8 @@ public class RecipeRepository implements PanacheRepository<Recipe> {
     }
 
     private Image getImage(String shortName){
-        File f = new File(filePath);
+        String filePath1 = ".";
+        File f = new File(filePath1);
         String path;
         try {
             path = f.getCanonicalPath();
