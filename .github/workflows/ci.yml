@@ -32,4 +32,5 @@ jobs:
           echo "Copying jar ..."
           scp target/bojer-kochrezepte-1.0.0-SNAPSHOT-runner.jar ${{ secrets.SERVER_USER }}@${{ secrets.SERVER }}:
           scp docker-compose.yml ${{ secrets.SERVER_USER }}@${{ secrets.SERVER }}:
+          scp -r data/ ${{ secrets.SERVER_USER }}@${{ secrets.SERVER }}:
 
