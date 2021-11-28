@@ -4,6 +4,6 @@ services:
   kochrezepte_db:
     image: "postgres:12.4"
     env_file:
-      - ./postgres-db.env
+      - postgres-db.env
     ports:
       - "5432:5432"

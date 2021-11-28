@@ -1,5 +1,7 @@
-package at.htl.kochrezepte.control;
+package java.at.htl.kochrezepte.control;
 
+import at.htl.kochrezepte.control.ImportController;
+import at.htl.kochrezepte.control.RecipeRepository;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

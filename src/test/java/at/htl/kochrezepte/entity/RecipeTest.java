@@ -1,6 +1,8 @@
-package at.htl.kochrezepte.entity;
+package java.at.htl.kochrezepte.entity;
 
 import at.htl.kochrezepte.control.RecipeRepository;
+import at.htl.kochrezepte.entity.MealType;
+import at.htl.kochrezepte.entity.Recipe;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

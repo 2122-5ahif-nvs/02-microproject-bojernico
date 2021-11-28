@@ -1,5 +1,8 @@
-package at.htl.kochrezepte.control;
+package java.at.htl.kochrezepte.control;
 
+import at.htl.kochrezepte.control.ImportController;
+import at.htl.kochrezepte.control.MenuRepository;
+import at.htl.kochrezepte.control.RecipeRepository;
 import at.htl.kochrezepte.entity.MealType;
 import at.htl.kochrezepte.entity.Menu;
 import io.quarkus.test.junit.QuarkusTest;

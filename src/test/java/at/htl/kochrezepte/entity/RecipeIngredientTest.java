@@ -1,5 +1,9 @@
-package at.htl.kochrezepte.entity;
+package java.at.htl.kochrezepte.entity;
 
+import at.htl.kochrezepte.entity.Ingredient;
+import at.htl.kochrezepte.entity.MealType;
+import at.htl.kochrezepte.entity.Recipe;
+import at.htl.kochrezepte.entity.RecipeIngredient;
 import org.junit.jupiter.api.Test;
 
 import static org.assertj.core.api.Assertions.assertThat;

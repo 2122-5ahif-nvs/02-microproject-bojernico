@@ -13,8 +13,6 @@ import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 import javax.ws.rs.core.Response;
 
-import at.htl.kochrezepte.control.ImportController;
-
 @Path("api/import")
 @Tag(name = "Import")
 @RequestScoped

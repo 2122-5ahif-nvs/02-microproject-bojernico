@@ -1,9 +1,8 @@
-package at.htl.kochrezepte.boundary;
+package java.at.htl.kochrezepte.boundary;
 
 import at.htl.kochrezepte.control.ImportController;
 import at.htl.kochrezepte.control.MenuRepository;
 import at.htl.kochrezepte.control.RecipeRepository;
-import at.htl.kochrezepte.dtos.DetailedRecipeDto;
 import at.htl.kochrezepte.entity.MealType;
 import at.htl.kochrezepte.entity.Menu;
 import io.quarkus.test.junit.QuarkusTest;
@@ -12,7 +11,6 @@ import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.BeforeEach;
 
 import javax.inject.Inject;
-import java.util.LinkedHashMap;
 import java.util.stream.Collectors;
 
 import static io.restassured.RestAssured.given;

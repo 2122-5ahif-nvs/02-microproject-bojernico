@@ -1,5 +1,6 @@
-package at.htl.kochrezepte.entity;
+package java.at.htl.kochrezepte.entity;
 
+import at.htl.kochrezepte.entity.Ingredient;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

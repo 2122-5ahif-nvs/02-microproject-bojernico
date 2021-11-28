@@ -3,7 +3,6 @@ package at.htl.kochrezepte.boundary;
 import at.htl.kochrezepte.control.MenuRepository;
 import at.htl.kochrezepte.dtos.GetMenuDto;
 import at.htl.kochrezepte.dtos.MenuDto;
-import at.htl.kochrezepte.entity.Menu;
 import org.eclipse.microprofile.openapi.annotations.Operation;
 import org.eclipse.microprofile.openapi.annotations.tags.Tag;
 

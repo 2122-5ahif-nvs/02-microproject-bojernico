@@ -1,6 +1,6 @@
 ## This is basic continuous integration build for your Quarkus application.
 
-name: Quarkus Kochrezeote CI
+name: Quarkus Kochrezepte CI
 
 on:
   push:
@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
           java-version: '16'
       - name: Build
-        run: ./mvnw clean package -Dquarkus.package.type=uber-jar -B
+        run: ./backend/mvnw clean package -Dquarkus.package.type=uber-jar -B
       - name: install ssh key
         uses: webfactory/ssh-agent@v0.5.3
         with:

@@ -1,9 +1,8 @@
-package at.htl.kochrezepte.boundary;
+package java.at.htl.kochrezepte.boundary;
 
 import at.htl.kochrezepte.control.IngredientRepository;
 import at.htl.kochrezepte.control.RecipeRepository;
 import at.htl.kochrezepte.dtos.PostPutIngredientDto;
-import at.htl.kochrezepte.entity.Ingredient;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.*;
 

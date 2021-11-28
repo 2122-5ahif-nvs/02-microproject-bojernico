@@ -57,4 +57,4 @@ gh-pages/
 .env
 *.zip
 
-backend/postgres-db.env
+postgres-db.env
