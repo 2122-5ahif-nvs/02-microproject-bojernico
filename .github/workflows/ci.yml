@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
           java-version: '16'
       - name: Build
-        run: ./backend/mvnw clean package -Dquarkus.package.type=uber-jar -B
+        run: ./mvnw clean package -Dquarkus.package.type=uber-jar -B
       - name: install ssh key
         uses: webfactory/ssh-agent@v0.5.3
         with:
