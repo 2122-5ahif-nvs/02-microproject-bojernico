@@ -1,4 +1,4 @@
-package java.at.htl.kochrezepte;
+package at.htl.kochrezepte;
 
 import at.htl.kochrezepte.entity.Recipe;
 import io.quarkus.test.junit.QuarkusTest;

@@ -1,4 +1,4 @@
-package java.at.htl.kochrezepte.entity;
+package at.htl.kochrezepte.entity;
 
 import at.htl.kochrezepte.entity.MealType;
 import org.junit.jupiter.api.Test;

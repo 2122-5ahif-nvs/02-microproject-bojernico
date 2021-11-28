@@ -1,4 +1,4 @@
-package java.at.htl.kochrezepte.boundary;
+package at.htl.kochrezepte.boundary;
 
 import at.htl.kochrezepte.control.IngredientRepository;
 import at.htl.kochrezepte.control.RecipeRepository;

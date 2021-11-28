@@ -1,4 +1,4 @@
-package java.at.htl.kochrezepte.control;
+package at.htl.kochrezepte.control;
 
 import at.htl.kochrezepte.control.ImportController;
 import at.htl.kochrezepte.control.RecipeRepository;
