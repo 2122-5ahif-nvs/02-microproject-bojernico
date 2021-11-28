@@ -72,7 +72,7 @@ public class IngredientServiceTest {
     void add_IngredientName_Tomate() {
         given()
                 .contentType("application/json")
-                .body("{\"name\": \"Tomate\"}")
+                .body("[{\"name\": \"Tomate\"}]")
                 .when()
                 .post("api/ingredient/create")
                 .then()

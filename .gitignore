@@ -56,3 +56,5 @@ gh-pages/
 .DS_Store
 .env
 *.zip
+
+backend/postgres-db.env

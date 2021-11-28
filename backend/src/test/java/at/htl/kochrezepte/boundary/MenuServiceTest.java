@@ -55,29 +55,6 @@ public class MenuServiceTest {
     }
 
     @Test
-    public void get_DessertAuthorNameOfMenu_Eichler_Roman() {
-        var menus = given()
-                .get("api/menu")
-                .then()
-                .log()
-                .body()
-                .statusCode(200)
-                .extract()
-                .body()
-                .jsonPath()
-                .getList("");
-
-        var hashMap = (LinkedHashMap) menus.get(1);
-
-        var dessertId= hashMap.get("dessertId").toString();
-
-        var name = this.recipeRepository.findDto(Long.parseLong(dessertId)).getAuthor();
-
-        assertThat(name)
-                .isEqualTo("Eichler Roman");
-    }
-
-    @Test
     public void delete_Menu_ReturnMessage() {
         String response = given()
                 .delete("api/menu/delete/1")
