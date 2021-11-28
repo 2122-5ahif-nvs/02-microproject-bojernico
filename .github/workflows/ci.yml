@@ -19,7 +19,7 @@ jobs:
           distribution: 'temurin'
           java-version: '16'
       - name: Build
-        run: ./mvnw clean package -Dquarkus.package.type=uber-jar -B
+        run: ./mvnw clean package -Dquarkus.package.type=uber-jar -B -DskipTests
       - name: install ssh key
         uses: webfactory/ssh-agent@v0.5.3
         with:
@@ -30,6 +30,6 @@ jobs:
       - name: copy binaries to oravm
         run: |
           echo "Copying jar ..."
-          ls -l target/
           scp target/bojer-kochrezepte-1.0.0-SNAPSHOT-runner.jar ${{ secrets.SERVER_USER }}@${{ secrets.SERVER }}:
+          scp docker-compose.yml ${{ secrets.SERVER_USER }}@${{ secrets.SERVER }}:
 
