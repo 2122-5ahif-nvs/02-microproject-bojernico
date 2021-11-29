@@ -176,6 +176,18 @@ public class RecipeService {
                         .build();
     }
 
+    @GET
+    @Operation(
+            summary = "Get image of recipe with given id",
+            description = "Displays the image (if existing) of the recipe with the given id"
+    )
+    @Path("{id}/image")
+    @Produces("image/png")
+    public Response getImage(@PathParam("id") Long id) {
+        var image = this.recipeRepository.findById(id).getImage();
+        return Response.ok(image.getImgInByte()).build();
+    }
+
     @POST
     @Operation(hidden = true)
     @Path("clear")
