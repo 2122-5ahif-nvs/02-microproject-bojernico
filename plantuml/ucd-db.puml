@@ -1,0 +1,11 @@
+@startuml
+left to right direction
+Rectangle Recipe {
+usecase "display recipe-calories" as UC1
+usecase "save recipes" as UC2
+usecase "update recipes" as UC3
+}
+user --- UC1
+user -- UC2
+user - UC3
+@enduml
