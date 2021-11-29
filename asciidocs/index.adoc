@@ -14,6 +14,35 @@ ifdef::backend-html5[]
 // print the toc here (not at the default position)
 //toc::[]
 
+== Pull Request Dokumentation
+
+image::master.png[]
+
+Wie hier zu sehen wurde auf einem 2. Branch namens recipe-as-image-endpoint
+gearbeitet und dieser Branch ist ein Commit vor dem master-Branch.
+
+Nun kann man mittels *Contribute* einen Pull Request "öffnen"
+
+image::open-pr.png[]
+
+Anhand des grünen Hakens und dem Able to merge wird einem gleich mitgeteilt,
+ob es überhaupt möglich ist, diesen Pull Request durchzuführen oder ob man
+selber wegen z.b. Merge-Konflikten eingreifen muss.
+
+Ist man mit seiner PR-Message zufrieden, kann man rechts noch einen Reviewer
+anfordern. Dies ist vor allem dann sinnvoll, wenn man mit mehreren
+Teammitgliedern arbeitet, da ein zweiter Blick auf den Code nie schaden kann.
+
+Mittels dem *Create Pull Request* Button, wird der Pull Request erstellt.
+
+image::created-pr.png[]
+
+Anschließend wartet man darauf, dass alle Checks abgeschlossen sind und
+falls ein Reviewer angegeben wurde, selbstverständlich noch auf sein Review.
+
+Durch *Merge pull request* und *Confirm merge* wird der Pull Request durchgeführt,
+anschließend kann man den Branch noch löschen.
+
 == Description
 
 **Java version has to be set to Java 11, otherwise Panache throws an exception**
